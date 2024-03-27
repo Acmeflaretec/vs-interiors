@@ -965,15 +965,28 @@ ul.re_post li {
 }
 @media (max-width: 768px) {
      img.rounded {
-       width: 100px; /* Adjust as needed */
-       height: 100px; /* Adjust as needed */
+       width: 100px;
+       height: 100px;
        border-radius: 50%;
      }
 .alignimges{
 display: flex;
 justify-content: center !important;
+}
+.logoimg{
+     max-height: 40px !important;
 
 }
+.logoh1{
+     display: inline;
+     font-weight: 900;color: white !important;
+     padding: 10px !important;
+font-size: 20px;
 
+}
+.banner_main{
+max-height: 90vh;
+
+}
    }
    
