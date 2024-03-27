@@ -336,7 +336,7 @@ ul.email li img {
 /** banner_main **/
 
 .banner_main {
-     background: url(../images/banner1.jpg);
+     background: url(../images/banner/b1.jpg);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -497,7 +497,7 @@ ul.email li img {
 
 .read_more {
      display: block;
-     background: #8b1310;
+     background: #000000;
      color: #fff;
      max-width: 224px;
      height: 61px;
@@ -520,7 +520,7 @@ ul.email li img {
 
 .building {
      padding-top: 323px;
-     background: url(../images/bg.png);
+     background: url(../images/png/pexels-pixabay-276583.jpg);
      background-size: 100% 100%;
      background-position: center center;
      background-repeat: no-repeat;
@@ -957,3 +957,21 @@ ul.re_post li {
 
 
 /** end contact **/
+.roundImg{
+     border-radius: 50%; width: 350px; height: 350px;
+
+}
+@media (max-width: 768px) {
+     img.rounded {
+       width: 100px; /* Adjust as needed */
+       height: 100px; /* Adjust as needed */
+       border-radius: 50%;
+     }
+.alignimges{
+display: flex;
+justify-content: center !important;
+
+}
+
+   }
+   
